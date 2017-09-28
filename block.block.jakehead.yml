@@ -1,0 +1,25 @@
+uuid: b31b2534-5548-4c6a-b3c5-fe1ec2c04c16
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_block:7fcb34d6-ce1f-466d-b800-d7bbe96e571a'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: jakehead
+theme: bootstrap
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:7fcb34d6-ce1f-466d-b800-d7bbe96e571a'
+settings:
+  id: 'block_content:7fcb34d6-ce1f-466d-b800-d7bbe96e571a'
+  label: 'Jake Head'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

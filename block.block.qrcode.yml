@@ -1,0 +1,25 @@
+uuid: 44be6606-62f8-45eb-90c2-31ecaa71d86f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_block:10bb379b-5b99-488b-a6fe-2dc8b8aaf7d2'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: qrcode
+theme: bootstrap
+region: help
+weight: 0
+provider: null
+plugin: 'block_content:10bb379b-5b99-488b-a6fe-2dc8b8aaf7d2'
+settings:
+  id: 'block_content:10bb379b-5b99-488b-a6fe-2dc8b8aaf7d2'
+  label: 'QR code'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: thumbnail
+visibility: {  }
