@@ -1,13 +1,14 @@
-uuid: 80b234cd-24ef-494f-847f-1ca1be4ebb08
+uuid: 8261c0e3-7991-4492-9cf5-19c66526cfc4
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
+    - node
     - paragraphs
-id: paragraph.field_paragraph_field
-field_name: field_paragraph_field
-entity_type: paragraph
+id: node.field_social_media
+field_name: field_social_media
+entity_type: node
 type: entity_reference_revisions
 settings:
   target_type: paragraph

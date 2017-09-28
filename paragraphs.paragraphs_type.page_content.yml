@@ -1,9 +1,0 @@
-uuid: b35436ed-e543-428f-8d6a-ebc74b729bea
-langcode: en
-status: true
-dependencies: {  }
-id: page_content
-label: 'Page Content'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }

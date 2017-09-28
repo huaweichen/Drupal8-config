@@ -1,0 +1,24 @@
+uuid: 7455bf0b-afc8-4d8b-97db-f82357727784
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_embed_code_2
+    - paragraphs.paragraphs_type.d8c_social_media
+  module:
+    - text
+id: paragraph.d8c_social_media.field_embed_code_2
+field_name: field_embed_code_2
+entity_type: paragraph
+bundle: d8c_social_media
+label: 'Embed Code 2'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '<!-- raw -->'
+    format: raw
+default_value_callback: ''
+settings: {  }
+field_type: text

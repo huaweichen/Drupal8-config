@@ -1,0 +1,9 @@
+uuid: 587e003c-7455-47ab-903a-06877813b757
+langcode: en
+status: true
+dependencies: {  }
+id: d8c_social_media
+label: 'Social Media'
+icon_uuid: null
+description: 'd8 cards 2, social media'
+behavior_plugins: {  }
