@@ -1,0 +1,14 @@
+uuid: ebda0210-c62c-4ebf-bafd-65c96a268223
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.themer
+  module:
+    - user
+id: user_remove_role_action.themer
+label: 'Remove the Themer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: themer

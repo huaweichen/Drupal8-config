@@ -1,0 +1,13 @@
+uuid: 40cf2ad7-c8d5-4b17-a55b-f9820fa6025f
+langcode: en
+status: true
+dependencies: {  }
+id: themer
+label: Themer
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'administer themes'
+  - 'view the administration theme'
