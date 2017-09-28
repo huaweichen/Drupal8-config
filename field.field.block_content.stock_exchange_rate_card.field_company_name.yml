@@ -1,0 +1,23 @@
+uuid: 8a1b5659-bdf3-458c-8d03-74b30055649f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+    - field.storage.block_content.field_company_name
+  module:
+    - text
+_core:
+  default_config_hash: kWSc-7J6_Flop8T0Ba5OxK3U8J_Yz8kc-y-wXsy1qQY
+id: block_content.stock_exchange_rate_card.field_company_name
+field_name: field_company_name
+entity_type: block_content
+bundle: stock_exchange_rate_card
+label: 'Company Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,30 @@
+uuid: c5a6a159-3404-4b30-831a-f09ec6c33570
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:stock_exchange_rate_card:98e17928-cba0-44a7-b627-07659d0714f2'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: stock_exchange_rate_blockbank_of_america
+theme: bootstrap
+region: sidebar_first
+weight: -100
+provider: block_content
+plugin: 'block_content:98e17928-cba0-44a7-b627-07659d0714f2'
+settings:
+  id: 'block_content:98e17928-cba0-44a7-b627-07659d0714f2'
+  label: 'Stock Exchange Rate: Bank of America'
+  provider: block_content
+  label_display: invisible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

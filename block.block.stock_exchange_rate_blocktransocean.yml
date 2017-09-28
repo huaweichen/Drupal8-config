@@ -1,0 +1,30 @@
+uuid: 642a652b-b778-442b-95ca-625ab92988de
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:stock_exchange_rate_card:6397628e-4985-4c66-860b-19f1e9e14544'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: stock_exchange_rate_blocktransocean
+theme: bootstrap
+region: sidebar_first
+weight: -100
+provider: block_content
+plugin: 'block_content:6397628e-4985-4c66-860b-19f1e9e14544'
+settings:
+  id: 'block_content:6397628e-4985-4c66-860b-19f1e9e14544'
+  label: 'Stock Exchange Rate: Transocean'
+  provider: block_content
+  label_display: invisible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

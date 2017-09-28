@@ -1,0 +1,25 @@
+uuid: ee66dbb3-0a3a-48a3-acf5-a586c775ab4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+    - field.storage.block_content.field_change
+_core:
+  default_config_hash: 6-ef6xXniz7YflG995c00FMtQPzrL6lvltn-9nVqMEg
+id: block_content.stock_exchange_rate_card.field_change
+field_name: field_change
+entity_type: block_content
+bundle: stock_exchange_rate_card
+label: Change
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: $
+  suffix: ''
+field_type: float

@@ -1,0 +1,10 @@
+uuid: 3a782356-9268-4a2a-b0e3-4a24f8fe7243
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: v6tb6P_pDH8dCQNI9H5zm0IokGQTwlOZyuTOBpxkkvI
+id: stock_exchange_rate_card
+label: 'Stock Exchange Rate Card'
+revision: 0
+description: 'D8 Cards: day 05. custom block'

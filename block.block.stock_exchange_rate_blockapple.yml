@@ -1,0 +1,30 @@
+uuid: 6a741491-22f4-4f46-9cc5-8f437b8a4643
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:stock_exchange_rate_card:322fb92e-04ee-4605-aef7-abe1f225b983'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: stock_exchange_rate_blockapple
+theme: bootstrap
+region: sidebar_first
+weight: -100
+provider: block_content
+plugin: 'block_content:322fb92e-04ee-4605-aef7-abe1f225b983'
+settings:
+  id: 'block_content:322fb92e-04ee-4605-aef7-abe1f225b983'
+  label: 'Stock Exchange Rate: Apple'
+  provider: block_content
+  label_display: invisible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

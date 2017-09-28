@@ -1,0 +1,20 @@
+uuid: 83481a46-c5c0-4031-b91f-3b17e80598d6
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: eJDrcEv3v-UWhx5ebkcNHXscaRpsbo0iUwb4HfRgIEo
+id: block_content.field_last_price
+field_name: field_last_price
+entity_type: block_content
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

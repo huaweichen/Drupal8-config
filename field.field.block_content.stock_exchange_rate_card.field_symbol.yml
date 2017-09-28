@@ -1,0 +1,23 @@
+uuid: ec460767-60c8-491e-8d7d-a1cf4cf8edef
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+    - field.storage.block_content.field_symbol
+  module:
+    - text
+_core:
+  default_config_hash: zt4iflE-hnCC0506FBBuwvz500eTcE4843IsgXUJkCA
+id: block_content.stock_exchange_rate_card.field_symbol
+field_name: field_symbol
+entity_type: block_content
+bundle: stock_exchange_rate_card
+label: Symbol
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

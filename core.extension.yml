@@ -63,6 +63,7 @@ module:
   search: 0
   shortcut: 0
   social_media_paragraph: 0
+  stock_exchange_rate_block: 0
   stream_wrapper_example: 0
   system: 0
   tablesort_example: 0
