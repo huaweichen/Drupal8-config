@@ -1,9 +1,9 @@
-uuid: 94b8572d-dfda-4157-bdd9-d5c32187caf3
+uuid: b9c0f0d7-21e3-443c-a6ec-c1a06a802f4e
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:stock_exchange_rate_card:e99aac70-3071-462c-9fc4-cff064f99110'
+    - 'block_content:stock_exchange_rate_card:2cb84add-37f7-4222-846e-d5fd838e1fe1'
   module:
     - block_content
     - system
@@ -14,9 +14,9 @@ theme: bootstrap
 region: sidebar_first
 weight: -100
 provider: block_content
-plugin: 'block_content:e99aac70-3071-462c-9fc4-cff064f99110'
+plugin: 'block_content:2cb84add-37f7-4222-846e-d5fd838e1fe1'
 settings:
-  id: 'block_content:e99aac70-3071-462c-9fc4-cff064f99110'
+  id: 'block_content:2cb84add-37f7-4222-846e-d5fd838e1fe1'
   label: 'Stock Exchange Rate: Freeport'
   provider: block_content
   label_display: invisible
