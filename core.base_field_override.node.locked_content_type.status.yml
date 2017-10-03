@@ -1,0 +1,22 @@
+uuid: 71c079bb-3796-4404-86a6-2054daf14294
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.locked_content_type
+id: node.locked_content_type.status
+field_name: status
+entity_type: node
+bundle: locked_content_type
+label: 已发表
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,16 @@
+uuid: 66ae22e9-c76e-4de1-a857-8e9cd70551b1
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d8c_social_media
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.d8c_social_media
+target_entity_type_id: paragraph
+target_bundle: d8c_social_media
+default_langcode: site_default
+language_alterable: false

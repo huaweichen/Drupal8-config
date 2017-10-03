@@ -1,0 +1,16 @@
+uuid: c68f6626-5a28-428e-8d53-182304f22270
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.locked_content_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: node.locked_content_type
+target_entity_type_id: node
+target_bundle: locked_content_type
+default_langcode: site_default
+language_alterable: true

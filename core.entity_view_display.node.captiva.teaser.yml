@@ -1,0 +1,29 @@
+uuid: e64032b7-d4cd-4ecb-8f49-7ffc1168204b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.captiva.body
+    - node.type.captiva
+  module:
+    - text
+    - user
+id: node.captiva.teaser
+targetEntityType: node
+bundle: captiva
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

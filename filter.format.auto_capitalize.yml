@@ -1,0 +1,8 @@
+uuid: 83cc9288-76f9-4d66-ab68-f60b54971357
+langcode: en
+status: false
+dependencies: {  }
+name: 'Auto Capitalize'
+format: auto_capitalize
+weight: 0
+filters: {  }

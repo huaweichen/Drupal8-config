@@ -1,5 +1,5 @@
 uuid: bae20bc4-b2d8-48e9-94ee-a0e4c8fbc80f
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: page
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

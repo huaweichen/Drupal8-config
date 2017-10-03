@@ -1,5 +1,5 @@
 uuid: ec25fe51-2f51-4707-9d87-ce8c43bfe08f
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -15,7 +15,7 @@ bundle: article
 label: Tags
 description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

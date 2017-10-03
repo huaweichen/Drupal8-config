@@ -1,0 +1,20 @@
+uuid: 4ab3fadd-8737-40fe-a850-757f4b2d53d1
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.basic_content_type
+id: node.basic_content_type.uid
+field_name: uid
+entity_type: node
+bundle: basic_content_type
+label: 作者
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

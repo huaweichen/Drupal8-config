@@ -1,0 +1,18 @@
+uuid: 0619e82c-1abb-446a-bef5-ef01a12f227a
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+id: block_content.stock_exchange_rate_card.info
+field_name: info
+entity_type: block_content
+bundle: stock_exchange_rate_card
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

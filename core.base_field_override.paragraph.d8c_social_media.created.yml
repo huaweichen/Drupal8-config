@@ -1,0 +1,18 @@
+uuid: 11c57842-3d96-4aee-9a37-8c385afa0a59
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d8c_social_media
+id: paragraph.d8c_social_media.created
+field_name: created
+entity_type: paragraph
+bundle: d8c_social_media
+label: 发布于
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

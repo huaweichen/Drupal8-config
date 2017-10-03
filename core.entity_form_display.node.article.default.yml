@@ -1,5 +1,5 @@
 uuid: 477ca15e-27c0-4ac4-a341-97753c9f75ca
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -69,6 +69,13 @@ content:
     weight: 3
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path

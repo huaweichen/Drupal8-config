@@ -1,0 +1,27 @@
+uuid: 7cccc3e0-f3ed-4e54-b1cd-f400acf56fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.captiva.body
+    - node.type.captiva
+  module:
+    - text
+    - user
+id: node.captiva.default
+targetEntityType: node
+bundle: captiva
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

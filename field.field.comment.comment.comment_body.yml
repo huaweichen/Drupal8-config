@@ -1,5 +1,5 @@
 uuid: 851b28ce-045b-4189-baf6-9da2a7fba8b8
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: comment
 label: Comment
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }

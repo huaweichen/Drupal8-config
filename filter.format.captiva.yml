@@ -1,0 +1,18 @@
+uuid: a70e1c6b-2057-43fc-bd5b-80f97a273d73
+langcode: en
+status: true
+dependencies:
+  module:
+    - text_filters_plugin
+name: captiva
+format: captiva
+weight: 0
+filters:
+  auto_capitalize_text_filter:
+    id: auto_capitalize_text_filter
+    provider: text_filters_plugin
+    status: true
+    weight: 0
+    settings:
+      auto_capitalize_text_filter: test
+      never_upper_case: cap

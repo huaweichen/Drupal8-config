@@ -1,0 +1,22 @@
+uuid: 34d6b978-ef94-403f-9cb9-25e2a29d5f9e
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.basic_content_type
+id: node.basic_content_type.sticky
+field_name: sticky
+entity_type: node
+bundle: basic_content_type
+label: 置顶
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

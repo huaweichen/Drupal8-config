@@ -1,0 +1,20 @@
+uuid: 190b89bb-66c1-4236-b36e-97598053d23f
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d8c_social_media
+id: paragraph.d8c_social_media.uid
+field_name: uid
+entity_type: paragraph
+bundle: d8c_social_media
+label: 作者
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

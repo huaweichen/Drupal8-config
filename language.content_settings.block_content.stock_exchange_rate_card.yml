@@ -1,0 +1,16 @@
+uuid: 9868455b-b12e-45fa-bae2-716f2ccfc3ea
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: block_content.stock_exchange_rate_card
+target_entity_type_id: block_content
+target_bundle: stock_exchange_rate_card
+default_langcode: site_default
+language_alterable: false

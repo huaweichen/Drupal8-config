@@ -1,0 +1,22 @@
+uuid: 2e73149c-fc31-4a98-82ba-965b41416f4a
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.locked_content_type
+id: node.locked_content_type.promote
+field_name: promote
+entity_type: node
+bundle: locked_content_type
+label: 推荐到首页
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

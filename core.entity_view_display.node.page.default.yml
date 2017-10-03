@@ -1,5 +1,5 @@
 uuid: 822f0888-1fc0-439c-8340-ef3480f7588a
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -25,4 +25,5 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true

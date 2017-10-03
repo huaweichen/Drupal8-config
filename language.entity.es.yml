@@ -1,0 +1,9 @@
+uuid: 8ecfe8ce-4d38-401f-9a30-255550b94b9e
+langcode: zh-hans
+status: true
+dependencies: {  }
+id: es
+label: Spanish
+direction: ltr
+weight: 2
+locked: false

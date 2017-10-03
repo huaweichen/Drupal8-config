@@ -1,5 +1,6 @@
 module:
   action: 0
+  attaching_assets: 0
   automated_cron: 0
   block: 0
   block_content: 0
@@ -11,11 +12,13 @@ module:
   comment: 0
   config: 0
   config_entity_example: 0
+  config_translation: 0
   configuration_form: 0
   contact: 0
   content_entity_example: 0
   contextual: 0
   cron_example: 0
+  cron_queuing: 0
   datetime: 0
   dblog: 0
   dbtng_example: 0
@@ -24,6 +27,7 @@ module:
   devel_generate_example: 0
   dynamic_page_cache: 0
   editor: 0
+  editor_test: 0
   email_example: 0
   entity_reference_revisions: 0
   events_example: 0
@@ -42,7 +46,9 @@ module:
   image: 0
   js_example: 0
   kint: 0
+  language: 0
   link: 0
+  locale: 0
   menu_ui: 0
   migrate: 0
   migrate_drupal: 0
@@ -70,14 +76,15 @@ module:
   taxonomy: 0
   testing_example: 0
   text: 0
+  text_filters_plugin: 0
   toolbar: 0
   tour: 0
   tour_example: 0
   update: 0
   user: 0
   views_ui: 0
-  webprofiler: 0
   menu_link_content: 1
+  content_translation: 10
   views: 10
   paragraphs: 11
   standard: 1000
@@ -93,3 +100,4 @@ theme:
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
+langcode: zh-hans

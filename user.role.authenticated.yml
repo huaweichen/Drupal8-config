@@ -1,5 +1,5 @@
 uuid: 73788cee-754d-4f07-ac74-9f310d6b6f5c
-langcode: en
+langcode: zh-hans
 status: true
 dependencies: {  }
 _core:
@@ -16,4 +16,8 @@ permissions:
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
+  - 'use text format auto_capitalize'
   - 'use text format basic_html'
+  - 'use text format capital'
+  - 'use text format captiva'
+  - 'use text format fdsafdsa'

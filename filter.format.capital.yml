@@ -1,0 +1,8 @@
+uuid: eff4b17f-be16-4245-9a5b-dd3d610353cd
+langcode: en
+status: false
+dependencies: {  }
+name: Capital
+format: capital
+weight: 0
+filters: {  }

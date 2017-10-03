@@ -1,0 +1,16 @@
+uuid: b84123b4-5fc6-485d-8b5c-725a8248f7bf
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: block_content.basic
+target_entity_type_id: block_content
+target_bundle: basic
+default_langcode: site_default
+language_alterable: false

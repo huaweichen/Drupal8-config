@@ -1,5 +1,5 @@
-uuid: 6f1622ff-0983-46a1-aee5-d274a5a20043
-langcode: en
+uuid: 402096c1-3ad1-4608-950a-fecaf147b2da
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -54,5 +54,12 @@ content:
     settings:
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
 hidden: {  }

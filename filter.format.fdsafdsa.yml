@@ -1,0 +1,17 @@
+uuid: af2abae0-520e-4258-bed1-a53276dc1b63
+langcode: en
+status: false
+dependencies:
+  module:
+    - text_filters_plugin
+name: fdsafdsa
+format: fdsafdsa
+weight: 0
+filters:
+  auto_capitalize_text_filter:
+    id: auto_capitalize_text_filter
+    provider: text_filters_plugin
+    status: false
+    weight: 0
+    settings:
+      auto_capitalize_text_filter: ''

@@ -1,5 +1,5 @@
-uuid: bb7bd95e-6ee0-4715-bf5c-0cbd6d1e5a03
-langcode: en
+uuid: bba1b64d-4dc6-424a-b64f-d9fd873a7bc3
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -53,4 +53,5 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-hidden: {  }
+hidden:
+  langcode: true

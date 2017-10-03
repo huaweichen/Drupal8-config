@@ -1,0 +1,11 @@
+uuid: 44d3ce11-b165-4c65-aa09-998da906892d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.captiva
+id: node.captiva
+target_entity_type_id: node
+target_bundle: captiva
+default_langcode: site_default
+language_alterable: false

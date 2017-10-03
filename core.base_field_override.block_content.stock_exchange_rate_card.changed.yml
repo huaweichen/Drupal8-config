@@ -1,0 +1,18 @@
+uuid: b7ccb737-a79d-4fce-bde1-0207b3385bf9
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - block_content.type.stock_exchange_rate_card
+id: block_content.stock_exchange_rate_card.changed
+field_name: changed
+entity_type: block_content
+bundle: stock_exchange_rate_card
+label: 已更改
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

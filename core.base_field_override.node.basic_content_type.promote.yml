@@ -1,0 +1,22 @@
+uuid: d3253854-90c0-422e-b413-a759d1ea54a6
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.basic_content_type
+id: node.basic_content_type.promote
+field_name: promote
+entity_type: node
+bundle: basic_content_type
+label: 推荐到首页
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

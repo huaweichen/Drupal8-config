@@ -1,5 +1,5 @@
 uuid: eb1191d7-6eba-4d58-9883-71efe55c4bbf
-langcode: en
+langcode: zh-hans
 status: true
 dependencies: {  }
 _core:
@@ -14,4 +14,8 @@ permissions:
   - 'access site-wide contact form'
   - 'configuration form access'
   - 'search content'
+  - 'use text format auto_capitalize'
+  - 'use text format capital'
+  - 'use text format captiva'
+  - 'use text format fdsafdsa'
   - 'use text format restricted_html'

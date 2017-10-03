@@ -1,0 +1,22 @@
+uuid: ec5ea850-5fc0-4ad3-96cb-522df569e6b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.captiva
+  module:
+    - text
+id: node.captiva.body
+field_name: body
+entity_type: node
+bundle: captiva
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

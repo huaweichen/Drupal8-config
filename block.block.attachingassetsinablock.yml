@@ -1,0 +1,20 @@
+uuid: 27272455-fd43-46a1-af59-1c79a64e7f8a
+langcode: en
+status: true
+dependencies:
+  module:
+    - attaching_assets
+  theme:
+    - bootstrap
+id: attachingassetsinablock
+theme: bootstrap
+region: highlighted
+weight: -8
+provider: null
+plugin: attach_assets_block
+settings:
+  id: attach_assets_block
+  label: 'attaching assets in a block'
+  provider: attaching_assets
+  label_display: '0'
+visibility: {  }

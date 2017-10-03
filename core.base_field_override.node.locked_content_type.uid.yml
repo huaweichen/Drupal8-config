@@ -1,0 +1,20 @@
+uuid: 608b79a8-60ef-4380-9ac0-00a5b856f1f0
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.locked_content_type
+id: node.locked_content_type.uid
+field_name: uid
+entity_type: node
+bundle: locked_content_type
+label: 作者
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,5 +1,5 @@
 uuid: 24a90292-c576-4bef-8e98-a7bb30e4bdf9
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -26,4 +26,5 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  langcode: true
   member_for: true

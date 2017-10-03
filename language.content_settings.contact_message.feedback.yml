@@ -1,0 +1,11 @@
+uuid: 9a09a57a-cc77-48f2-8d71-5355da69a782
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+id: contact_message.feedback
+target_entity_type_id: contact_message
+target_bundle: feedback
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: 87fa5f0b-1fc4-4cc8-8e83-382c38804eab
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.basic_content_type
+id: node.basic_content_type.created
+field_name: created
+entity_type: node
+bundle: basic_content_type
+label: 发布于
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

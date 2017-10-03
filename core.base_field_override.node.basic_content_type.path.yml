@@ -1,0 +1,20 @@
+uuid: ccfc1a41-ce73-453e-bb11-db3dfff6c630
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.basic_content_type
+  module:
+    - path
+id: node.basic_content_type.path
+field_name: path
+entity_type: node
+bundle: basic_content_type
+label: URL别名
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

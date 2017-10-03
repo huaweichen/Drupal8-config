@@ -1,0 +1,22 @@
+uuid: ccf83be4-7181-40ed-b826-2ff2aebdc56b
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.d8c_social_media
+id: paragraph.d8c_social_media.status
+field_name: status
+entity_type: paragraph
+bundle: d8c_social_media
+label: 已发表
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,5 +1,5 @@
 uuid: fc4e3d3d-ec09-4eff-9130-58c1c2ce0847
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -72,3 +72,4 @@ content:
 hidden:
   field_image: true
   field_tags: true
+  langcode: true

@@ -1,5 +1,5 @@
 uuid: 67075bc1-3a9c-458c-8a42-1f2fcd880791
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: basic
 label: Body
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

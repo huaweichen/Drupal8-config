@@ -1,0 +1,18 @@
+uuid: e3b20dd1-ca53-4ca7-8ed1-056e573e21bc
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - node.type.locked_content_type
+id: node.locked_content_type.created
+field_name: created
+entity_type: node
+bundle: locked_content_type
+label: 发布于
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

@@ -1,5 +1,5 @@
 uuid: e47e7419-0068-460c-8714-27a18fa88123
-langcode: en
+langcode: zh-hans
 status: true
 dependencies:
   config:
@@ -16,7 +16,7 @@ bundle: article
 label: Comments
 description: ''
 required: true
-translatable: true
+translatable: false
 default_value:
   -
     status: 2
