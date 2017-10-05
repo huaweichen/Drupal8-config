@@ -1,0 +1,22 @@
+uuid: a92edb6c-e38d-45b9-8199-db086c198f81
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - theming_101
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: theming_101_search
+theme: theming_101
+region: sidebar1
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

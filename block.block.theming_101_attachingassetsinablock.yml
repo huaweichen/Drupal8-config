@@ -1,0 +1,20 @@
+uuid: f3351dc2-b590-4c55-ad19-6485e11a30ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - attaching_assets
+  theme:
+    - theming_101
+id: theming_101_attachingassetsinablock
+theme: theming_101
+region: sidebar1
+weight: -8
+provider: null
+plugin: attach_assets_block
+settings:
+  id: attach_assets_block
+  label: 'attaching assets in a block'
+  provider: attaching_assets
+  label_display: '0'
+visibility: {  }

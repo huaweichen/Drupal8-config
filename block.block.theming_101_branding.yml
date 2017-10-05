@@ -1,0 +1,25 @@
+uuid: c34d33b7-2b66-4bf6-bf3d-7aa18f0a106a
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - theming_101
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: theming_101_branding
+theme: theming_101
+region: sidebar1
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

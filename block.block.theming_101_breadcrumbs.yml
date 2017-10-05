@@ -1,0 +1,22 @@
+uuid: 554db063-3880-40fc-ab9a-f90152235b4d
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - theming_101
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: theming_101_breadcrumbs
+theme: theming_101
+region: sidebar1
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

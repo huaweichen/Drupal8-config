@@ -1,0 +1,22 @@
+uuid: 06888a5e-316f-4b7a-b6e2-e171f240b669
+langcode: zh-hans
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - theming_101
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: theming_101_help
+theme: theming_101
+region: sidebar1
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: fa05d191-b323-4213-8255-e260412048c6
+langcode: zh-hans
+status: true
+dependencies:
+  theme:
+    - theming_101
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: theming_101_page_title
+theme: theming_101
+region: sidebar1
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

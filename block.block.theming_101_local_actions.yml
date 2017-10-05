@@ -1,0 +1,20 @@
+uuid: 538e6fea-4344-4be8-99df-b6805fd9ee7a
+langcode: zh-hans
+status: true
+dependencies:
+  theme:
+    - theming_101
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: theming_101_local_actions
+theme: theming_101
+region: sidebar1
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

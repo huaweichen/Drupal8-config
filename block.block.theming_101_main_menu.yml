@@ -1,0 +1,26 @@
+uuid: 4750e34c-a2ab-4d6c-8d01-0d6ca5eb969b
+langcode: zh-hans
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - theming_101
+_core:
+  default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
+id: theming_101_main_menu
+theme: theming_101
+region: sidebar1
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }
